@@ -172,7 +172,7 @@ module.exports = {
                     // directory for faster rebuilds.
                     cacheDirectory: true,
                     plugins: [
-                        ['import', [{ libraryName: 'antd', style: true }]],
+                        ['import', [{ libraryName: 'antd' }]],
                     ],
                 },
             },
